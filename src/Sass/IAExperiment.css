@@ -1,0 +1,65 @@
+.iaexperiment-container {
+  padding: 20px;
+  background-color: #f0f7ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.text-2xl {
+  color: #333;
+  transition: color 0.3s ease-in-out;
+}
+
+.text-2xl:hover {
+  color: #007bff;
+}
+
+.ia-text {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.topic-table {
+  margin-top: 20px;
+}
+
+.topic-table h3 {
+  color: #007bff;
+  font-size: 18px;
+  margin-bottom: 10px;
+  transition: color 0.3s ease-in-out;
+}
+
+.topic-table h3:hover {
+  color: #0056b3;
+}
+
+.topic-table p {
+  color: #777;
+  font-size: 14px;
+  animation: slideIn 1s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}/*# sourceMappingURL=IAExperiment.css.map */
